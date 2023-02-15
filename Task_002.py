@@ -7,12 +7,12 @@
 
 # 1 Variant
 
-# def sum(a, b):
+# def summ(a, b):
 #     if b > a:
 #         a, b = b, a
 #     if b == 0:
 #         return a
-#     return 1 + sum(a, b - 1)
+#     return 1 + summ(a, b - 1)
 
 # 2 Variant
 
