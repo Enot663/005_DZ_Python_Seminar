@@ -9,8 +9,7 @@
 def level(a, b):
     if b == 0:
         return 1
-    elif b == 1:
-        return a
-    return a ** level(a, b - 1)
+
+    return a * level(a, b - 1)
 print(level((int(input('Введите число А: '))), int(input('Введите число B: '))))
  
