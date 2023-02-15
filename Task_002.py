@@ -16,12 +16,10 @@
 
 # 2 Variant
 
-def sum(a, b):
+def summ(a, b):
     if b == 0:
-        return a
-    else:
-        if b > 0:
-            return sum(a + 1, b - 1)
-        else:
-            return sum(a - 1, b + 1)
-print(sum(int(input('Введите первое число a: ')), int(input('Введите второе число b: '))))
+        return a        
+    if b > 0:
+        return summ(a + 1, b - 1)      
+    return summ(a - 1, b + 1)
+print(summ(int(input('Введите первое число a: ')), int(input('Введите второе число b: '))))
